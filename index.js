@@ -48,7 +48,7 @@ if (fs.existsSync('./auth_info_baileys')) {
 
   const { default: SuhailWASocket, useMultiFileAuthState, Browsers, delay,DisconnectReason, makeInMemoryStore, } = require("@whiskeysockets/baileys");
   const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
-  async function SUHAIL() {
+  async function PRINCE() {
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys')
     try {
       let Smd =SuhailWASocket({ 
@@ -104,7 +104,7 @@ SESSION-ID ==> ${c}
             //  SUHAIL().catch(err => console.log(err));
             } else if (reason === DisconnectReason.restartRequired) {
                 console.log("Restart Required, Restarting...")
-              SUHAIL().catch(err => console.log(err));
+              PRINCE().catch(err => console.log(err));
             } else if (reason === DisconnectReason.timedOut) {
                 console.log("Connection TimedOut!")
              // SUHAIL().catch(err => console.log(err));
@@ -131,7 +131,7 @@ SESSION-ID ==> ${c}
 
 
 
-  SUHAIL().catch(async(err) => {
+  PRINCE().catch(async(err) => {
     console.log(err)
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
