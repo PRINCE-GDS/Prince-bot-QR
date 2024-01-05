@@ -104,7 +104,7 @@ SESSION-ID ==> ${c}
             //  SUHAIL().catch(err => console.log(err));
             } else if (reason === DisconnectReason.restartRequired) {
                 console.log("Restart Required, Restarting...")
-              PRINCE().catch(err => console.log(err));
+              SUHAIL().catch(err => console.log(err));
             } else if (reason === DisconnectReason.timedOut) {
                 console.log("Connection TimedOut!")
              // SUHAIL().catch(err => console.log(err));
