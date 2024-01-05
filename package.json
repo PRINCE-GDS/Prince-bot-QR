@@ -7,8 +7,8 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "node index.js"
     },
-    "keywords": ["baileysQr","MdLogin", "Suhail-Md","whatsapp-bot","BotWhatsapp","whatsappMdLogin","adiwajshing/baileys","baileys-md-qr","multi-device-qr","md-qr","bot-qr","baileysQrScanner","wabot" ],
-    "author": "SuhailTechInfo",
+    "keywords": ["baileysQr","MdLogin", "Prince-Md","whatsapp-bot","BotWhatsapp","whatsappMdLogin","adiwajshing/baileys","baileys-md-qr","multi-device-qr","md-qr","bot-qr","baileysQrScanner","wabot" ],
+    "author": "PRINCE-GDS",
     "license": "MIT",
     "dependencies": {
       "@hapi/boom": "^10.0.1",
@@ -20,7 +20,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.dev/SuhailTechInfo/web-qr.git"
+        "url": "git+https://github.dev/PRINCE-GDS/web-qr.git"
     }
   }
   
