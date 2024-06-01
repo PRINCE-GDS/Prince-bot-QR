@@ -18,9 +18,9 @@
 
 ## Deployment Methods
 ---
-1.  ***Click [`FORK`](https://github.com/SuhailTechInfo/web-qr/fork) and `Star ⭐ Repository` if you get help from repo.***
-2.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/SuhailTechInfo/web-qr).***
-3.  ***Deploy on [`REPLIT`](https://replit.com/github/SuhailTechInfo/web-qr).***
+1.  ***Click [`FORK`](https://github.com/PRINCE-GDS/Prince-bot-QR/fork) and `Star ⭐ Repository` if you get help from repo.***
+2.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/PRINCE-GDS/Prince-bot-QR).***
+3.  ***Deploy on [`REPLIT`](https://replit.com/github.com/PRINCE-GDS/Prince-bot-QR).***
 4. ***Deploy on [`RENDER`](https://dashboard.render.com/login).***
 ```
 RENDER PROCESS:
@@ -81,5 +81,4 @@ RENDER PROCESS:
 
 
 
-## MADE WITH ❤️
-[![SuhailTechIinfo](https://github.com/SuhailTechInfo.png?size=300)](https://github.com/SuhailTechInfo)
+
